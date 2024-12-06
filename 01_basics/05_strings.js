@@ -30,13 +30,13 @@ console.log(newStringOne);
 console.log(newStringOne.trim());
 
 const url = "https://hitesh.com/hitesh%20choudhary"
-console.log(url.replace('%20','-'));
+console.log(url.replace('%20','-')); //https://hitesh.com/hitesh-choudhary
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) //false
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); //['hitesh','hc','com']
 
-console.log(gameName.split('-')[0]);
+console.log(gameName.split('-')[0]); //hitesh
 
 
 
