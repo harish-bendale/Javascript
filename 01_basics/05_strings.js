@@ -8,6 +8,7 @@ const repoCount = 50;
 
 const gameName = new String("hitesh-hc-com")
 console.log(gameName[0]); // h
+console.log(gameName); // [String: 'hitesh-hc-com']
 
 
 // console.log(gameName.length);
